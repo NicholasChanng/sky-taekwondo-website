@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: url("./assets/fonts/Ubuntu-Regular.ttf") format("ttf");
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.section {
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 80%;
+  height: auto;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}

@@ -1,0 +1,27 @@
+.navbar-section {
+  display: sticky;
+  top: 0px;
+  width: 100%;
+  height: 100px;
+}
+
+.navbar-container {
+  height: 100%;
+  width: 95%;
+}
+
+.flex {
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.img-logo {
+  height: 60px;
+  width: auto;
+  margin: auto;
+  padding-right: 10px;
+}
