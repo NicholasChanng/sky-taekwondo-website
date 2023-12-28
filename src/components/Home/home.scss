@@ -1,8 +1,12 @@
 .home-section {
+  display: flex;
+  // align-items: center;
   background-image: url("../../assets/images/background (1).png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  height: calc(100dvh - 100px);
+  padding: 0;
 }
 
 .home-flex {

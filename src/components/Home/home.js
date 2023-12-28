@@ -1,7 +1,9 @@
 import "./home.scss";
 import logo from "../../assets/images/skytkd-white.png";
+import Youtube from "../Youtube/youtube";
+import Location from "../Location/location";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <section className="section home-section">
@@ -13,6 +15,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <Location />
+
+      <Youtube />
     </>
   );
-}
+};
+
+export default Home;
