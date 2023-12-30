@@ -26,6 +26,14 @@
   padding-right: 10px;
 }
 
+.top-phone-number {
+  transition: all 0.5s ease;
+}
+
+.top-phone-number:hover {
+  color: var(--secondary-color);
+}
+
 .socials {
   display: flex;
   align-items: center;
@@ -39,6 +47,7 @@
 
 .sky {
   transition: all 0.5s ease;
+  margin-right: 20px;
 }
 
 .icon:hover,

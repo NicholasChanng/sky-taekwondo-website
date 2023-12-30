@@ -24,7 +24,7 @@ a {
 
 .container {
   box-sizing: border-box;
-  width: 1200px;
+  width: 1400px;
   height: auto;
   padding: 0 50px;
   margin: 0 auto;
@@ -32,12 +32,16 @@ a {
 
 .flex {
   display: flex;
-  height: 100%;
+  height: auto;
 }
 
 .grid {
   display: grid;
   height: 100%;
+}
+
+.line {
+  outline: 1px solid grey;
 }
 
 :root {

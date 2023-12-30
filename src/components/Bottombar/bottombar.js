@@ -60,30 +60,49 @@ export default function Bottombar() {
                 />
               </a>
             </div>
-            <div className="email">
-              <h3>(908) 917-1336 | pskyman1@gmail.com</h3>
+            <div className="flex email">
+              <a href="tel:(908) 917-1336">
+                <h3 className="bottom-phone-number">(908) 917-1336</h3>
+              </a>
+              <h3>&nbsp; | &nbsp;</h3>
+              <a href="mailto:pskyman1@gmail.com">
+                <h3 className="bottom-phone-number"> pskyman1@gmail.com</h3>
+              </a>
             </div>
           </div>
-          <div>
-            <iframe
-              className="maps"
-              title="map"
-              width="300"
-              height="250"
-              loading="lazy"
-              allowfullscreen
-              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ3_fCZ0e8w4kRn-ck-uLJhuY&key=AIzaSyBTGPwNk0diOT1wrQ14fq5Swu0hQTdNtmo"
-            ></iframe>
-            <iframe
-              className="maps"
-              title="map"
-              width="300"
-              height="250"
-              loading="lazy"
-              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJMyGeQ-KKw4kRxXbDJsb2Tvs&key=AIzaSyCIrki-wZ7DBxOXNKtm2ir3czMjNDy2p24"
-            ></iframe>
+          <div className="map-area">
+            <div>
+              <iframe
+                title="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.911851244648!2d-74.53536301049722!3d40.653873467445976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3bc472dcf9ee7%3A0xe10dd534744bf1a4!2sSKY%20Taekwondo!5e0!3m2!1sen!2sus!4v1703927654339!5m2!1sen!2sus"
+                width="300"
+                height="250"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              />
+
+              <h3 className="map-caption">Basking Ridge</h3>
+              <h3 className="map-caption">
+                403 King George Rd, Basking Ridge, NJ 07920
+              </h3>
+            </div>
+            <div>
+              <iframe
+                title="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.8376029143215!2d-74.92519902356425!3d40.63346324241916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c38b718aaa5927%3A0xc8ce7e1f5a2238ea!2sSky%20Taekwondo!5e0!3m2!1sen!2sus!4v1703927767382!5m2!1sen!2sus"
+                width="300"
+                height="250"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              />
+              <h3 className="map-caption"> Clinton</h3>
+              <h3 className="map-caption">114 W Main St, Clinton, NJ 08809</h3>
+            </div>
           </div>
         </div>
+        <section className="line" />
         <div className="copyright">
           <a
             className="github"

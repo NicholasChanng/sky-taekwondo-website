@@ -20,6 +20,15 @@ export default function Navbar() {
               <a href="/">
                 <h1 className="sky">SKY TAEKWONDO</h1>
               </a>
+              <div className="flex email">
+                <a href="tel:(908) 917-1336">
+                  <h3 className="top-phone-number">(908) 917-1336</h3>
+                </a>
+                <h3>&nbsp; | &nbsp;</h3>
+                <a href="mailto:pskyman1@gmail.com">
+                  <h3 className="top-phone-number">pskyman1@gmail.com</h3>
+                </a>
+              </div>
             </div>
             <div className="socials">
               <a

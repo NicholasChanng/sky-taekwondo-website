@@ -1,6 +1,6 @@
 .bottom-section {
   background-color: #1d3557;
-  height: 275px;
+  height: 325px;
   color: white;
 }
 
@@ -10,6 +10,7 @@
 
 .bottom-flex {
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .logo-flex {
@@ -21,12 +22,18 @@
   color: white;
 }
 
+.bottom-phone-number {
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.bottom-phone-number:hover,
 .bottom:hover {
   color: var(--secondary-color);
 }
-
 .copyright {
   text-align: center;
+  margin-top: 20px;
 }
 
 #copyright {
@@ -37,7 +44,16 @@
   font-size: 20px;
 }
 
-.maps {
+.map-area {
+  display: flex;
+  gap: 50px;
+}
+
+.map-caption {
+  margin: 0;
+  text-align: center;
+}
+
+iframe {
   border: 0;
-  margin-left: 30px;
 }
