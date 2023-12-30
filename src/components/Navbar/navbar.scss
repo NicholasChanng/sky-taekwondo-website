@@ -34,4 +34,14 @@
 .icon {
   font-size: 30px;
   margin: 0 10px;
+  transition: all 0.5s ease;
+}
+
+.sky {
+  transition: all 0.5s ease;
+}
+
+.icon:hover,
+.sky:hover {
+  color: var(--secondary-color);
 }

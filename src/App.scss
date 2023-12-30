@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Ubuntu&display=swap");
+
+@font-face {
+  font-family: "Shadows Into Light";
+  src: url("./assets/fonts/ShadowsIntoLight-Regular.ttf") format("ttf");
+}
+
 @font-face {
   font-family: "Ubuntu";
   src: url("./assets/fonts/Ubuntu-Regular.ttf") format("ttf");
@@ -11,7 +19,7 @@ a {
 .section {
   width: 100%;
   height: auto;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .container {
@@ -25,4 +33,14 @@ a {
 .flex {
   display: flex;
   height: 100%;
+}
+
+.grid {
+  display: grid;
+  height: 100%;
+}
+
+:root {
+  --primary-color: #1d3557;
+  --secondary-color: #e63946;
 }

@@ -1,0 +1,43 @@
+.bottom-section {
+  background-color: #1d3557;
+  height: 275px;
+  color: white;
+}
+
+.bottom-container {
+  height: 275px;
+}
+
+.bottom-flex {
+  justify-content: space-between;
+}
+
+.logo-flex {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bottom {
+  color: white;
+}
+
+.bottom:hover {
+  color: var(--secondary-color);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#copyright {
+  margin: 0;
+}
+
+#github {
+  font-size: 20px;
+}
+
+.maps {
+  border: 0;
+  margin-left: 30px;
+}

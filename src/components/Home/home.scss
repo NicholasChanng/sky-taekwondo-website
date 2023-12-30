@@ -1,11 +1,11 @@
 .home-section {
   display: flex;
   // align-items: center;
-  background-image: url("../../assets/images/background (1).png");
+  background-image: url("../../assets/images/test.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: calc(100dvh - 100px);
+  height: calc(70vh);
   padding: 0;
 }
 
@@ -17,8 +17,21 @@
 
 .h1 {
   font-size: 50px;
+  font-family: "Shadows Into Light", cursive;
 }
 
 .h3 {
+  margin-top: 0;
   font-size: 35px;
+}
+
+.location-grid {
+  height: auto;
+  width: 100%;
+  gap: 10%;
+  grid-template-columns: 45% 45%;
+}
+
+.location {
+  text-align: center;
 }

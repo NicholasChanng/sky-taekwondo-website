@@ -18,7 +18,7 @@ export default function Navbar() {
                 <img className="img-logo" src={skytkd} alt="skytkd" />
               </a>
               <a href="/">
-                <h1>Sky Taekwondo</h1>
+                <h1 className="sky">SKY TAEKWONDO</h1>
               </a>
             </div>
             <div className="socials">
