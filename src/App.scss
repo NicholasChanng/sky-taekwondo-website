@@ -24,7 +24,7 @@ a {
 
 .container {
   box-sizing: border-box;
-  width: 1400px;
+  width: var(--container-width);
   height: auto;
   padding: 0 50px;
   margin: 0 auto;
@@ -37,7 +37,7 @@ a {
 
 .grid {
   display: grid;
-  height: 100%;
+  height: auto;
 }
 
 .line {
@@ -47,4 +47,6 @@ a {
 :root {
   --primary-color: #1d3557;
   --secondary-color: #e63946;
+
+  --container-width: 1200px;
 }

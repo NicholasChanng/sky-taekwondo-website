@@ -1,8 +1,11 @@
 import "./home.scss";
 import logo from "../../assets/images/skytkd-white.png";
 // import Park from "../Park/park";
-import Youtube from "../Youtube/youtube";
+// import Slider from "../Image Containers/Slider/slider";
+import Scroller from "../Image Containers/Scroller/scroller";
 import About from "../About/about";
+import Youtube from "../Youtube/youtube";
+
 // import Location from "../Location/location";
 
 const Home = () => {
@@ -29,6 +32,10 @@ const Home = () => {
       </section>
 
       <About />
+
+      {/* <Slider /> */}
+
+      <Scroller />
 
       {/* <Location /> */}
 

@@ -10,5 +10,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-y: visible;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }

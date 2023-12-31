@@ -1,0 +1,56 @@
+.scroller-section {
+  background-color: var(--primary-color);
+}
+
+.scroller-container {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-list {
+  position: relative;
+  right: 0;
+  list-style: none;
+  padding: 0px;
+}
+
+li img {
+  height: 300px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.scroller {
+  width: 100dvw;
+  opacity: 1;
+}
+
+.scroller-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.scroller {
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 10%,
+    white 90%,
+    transparent
+  );
+  mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
+}
+
+.scroller .scroller-inner {
+  overflow: hidden;
+  width: fit-content;
+  flex-wrap: nowrap;
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 15px));
+  }
+}

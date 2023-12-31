@@ -6,6 +6,7 @@ import {
   faFacebook,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import Hamburger from "./Hamburger/hamburger";
 
 export default function Navbar() {
   return (
@@ -67,6 +68,7 @@ export default function Navbar() {
                   className="icon"
                 />
               </a>
+              <Hamburger />
             </div>
           </div>
         </div>

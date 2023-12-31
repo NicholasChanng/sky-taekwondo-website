@@ -1,0 +1,115 @@
+.slider-section {
+  background-color: var(--primary-color);
+}
+
+.slider-container {
+  display: flex;
+}
+
+.slider {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  align-items: center;
+  width: 500%;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  transition: 2s;
+}
+
+.slide img {
+  display: block;
+  height: 500px;
+  width: var(--container-width);
+}
+.navigation-manual {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: var(--container-width);
+  margin-top: -40px;
+}
+
+.manual-btn {
+  border: 2.5px solid var(--secondary-color);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+
+.manual-btn:hover {
+  background-color: var(--secondary-color);
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: calc(-1 * var(--container-width));
+}
+
+#radio3:checked ~ .first {
+  margin-left: calc(-2 * var(--container-width));
+}
+
+#radio4:checked ~ .first {
+  margin-left: calc(-3 * var(--container-width));
+}
+
+#radio5:checked ~ .first {
+  margin-left: calc(-4 * var(--container-width));
+}
+
+.navigation-auto {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: var(--container-width);
+  margin-top: 444px;
+}
+
+.navigation-auto div {
+  border: 2.5px solid var(--secondary-color);
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.navigation-auto div:not(:last-child) {
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background: var(--secondary-color);
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  background: var(--secondary-color);
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+  background: var(--secondary-color);
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+  background: var(--secondary-color);
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5 {
+  background: var(--secondary-color);
+}

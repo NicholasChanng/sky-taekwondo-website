@@ -1,11 +1,11 @@
 .home-section {
   display: flex;
   align-items: center;
-  background-image: url("../../assets/images/test.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  height: calc(70vh);
+  // background-image: url("../../assets/images/background-emojis.png");
+  // background-repeat: no-repeat;
+  // background-attachment: fixed;
+  // background-size: cover;
+  background-color: var(--primary-color);
   padding: 0;
 }
 
@@ -13,6 +13,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 50px 0;
 }
 
 .h1 {
