@@ -7,6 +7,7 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import Hamburger from "./Hamburger/hamburger";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -15,12 +16,12 @@ export default function Navbar() {
         <div className="container navbar-container">
           <div className="flex navbar-flex">
             <div className="logo">
-              <a href="/">
-                <img className="img-logo" src={skytkd} alt="skytkd" />
-              </a>
-              <a href="/">
+              <Link to="/">
+                <img className="img-logo" src={skytkd} alt="skytkd" />{" "}
+              </Link>
+              <Link to="/">
                 <h1 className="sky">SKY TAEKWONDO</h1>
-              </a>
+              </Link>
               <div className="flex email">
                 <a href="tel:(908) 917-1336">
                   <h3 className="top-phone-number">(908) 917-1336</h3>

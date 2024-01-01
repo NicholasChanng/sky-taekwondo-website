@@ -11,7 +11,7 @@ import Youtube from "../Youtube/youtube";
 const Home = () => {
   return (
     <>
-      <section className="section home-section">
+      <section className="top-section section home-section">
         <div className="container home-container">
           <div className="flex home-flex">
             <img src={logo} alt="logo" />

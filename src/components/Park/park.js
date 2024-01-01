@@ -3,7 +3,7 @@ import park from "../../assets/images/park.jpeg";
 
 export default function Park() {
   return (
-    <section className="section contact-section">
+    <section className="top-section section contact-section">
       <div className="container contact-containers">
         <div className="flex contact-flex">
           <div className="picture">

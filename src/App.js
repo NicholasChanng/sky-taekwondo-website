@@ -3,6 +3,7 @@ import "./App.scss";
 import Layout from "./components/Layout/layout";
 import Home from "./components/Home/home";
 import Park from "./components/Park/park";
+import Schedule from "./components/Schedule/schedule";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/instructors" element={<Park />} />
+          <Route path="/schedule" element={<Schedule />} />
         </Route>
       </Routes>
     </>

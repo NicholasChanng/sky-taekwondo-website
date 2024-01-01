@@ -7,6 +7,7 @@ import {
   faYoutube,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 export default function Bottombar() {
   return (
@@ -15,12 +16,12 @@ export default function Bottombar() {
         <div className="flex bottom-flex">
           <div className="flex logo-flex">
             <div className="logo">
-              <a href="/">
+              <Link to="/">
                 <img className="img-logo" src={skytkd} alt="skytkd" />
-              </a>
-              <a href="/">
+              </Link>
+              <Link to="/">
                 <h1 className="bottom sky">SKY TAEKWONDO</h1>
-              </a>
+              </Link>
             </div>
             <div className="socials">
               <a
@@ -117,7 +118,7 @@ export default function Bottombar() {
               id="github"
             />
           </a>
-          <h3 id="copyright">©2023 by SKY Taekwondo. All rights reserved.</h3>
+          <h3 id="copyright">©2024 by SKY Taekwondo. All rights reserved.</h3>
         </div>
       </div>
     </div>
