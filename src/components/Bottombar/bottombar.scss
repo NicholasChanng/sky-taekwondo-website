@@ -1,11 +1,11 @@
 .bottom-section {
   background-color: #1d3557;
-  height: 370px;
+  height: auto;
   color: white;
 }
 
 .bottom-container {
-  height: 275px;
+  height: auto;
 }
 
 .bottom-flex {
@@ -27,9 +27,28 @@
   transition: all 0.5s ease;
 }
 
+#pages {
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.bottom-links-container h3 {
+  margin: 0;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.bottom-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 0;
+}
+
 .bottom-phone-number:hover,
+.bottom-links-container :not(#pages)h3:hover,
 .bottom:hover {
   color: var(--secondary-color);
+  transform: scale(1.1, 1.1);
 }
 .copyright {
   text-align: center;

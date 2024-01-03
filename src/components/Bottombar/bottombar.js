@@ -70,6 +70,23 @@ export default function Bottombar() {
                 <h3 className="bottom-phone-number"> pskyman1@gmail.com</h3>
               </a>
             </div>
+            <div className="bottom-links-container">
+              <h3 id="pages">Pages</h3>
+              <nav className="bottom-links">
+                <Link to="/">
+                  <h3>Home </h3>
+                </Link>
+                <Link to="/instructors">
+                  <h3>Instructors </h3>
+                </Link>
+                <Link to="/schedule">
+                  <h3>Schedule </h3>
+                </Link>
+                <Link to="/pricing">
+                  <h3>Pricing </h3>
+                </Link>
+              </nav>
+            </div>
           </div>
           <div className="map-area">
             <div>
