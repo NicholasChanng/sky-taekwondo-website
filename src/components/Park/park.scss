@@ -1,4 +1,6 @@
 .contact-flex {
+  justify-self: center;
+  align-items: center;
 }
 
 .picture {
@@ -9,7 +11,7 @@
 }
 .description {
   font-size: 0.75rem;
-  width: 700px;
+  max-width: 700px;
   padding: 45px 20px;
 }
 #park {
@@ -17,4 +19,10 @@
   height: 193px;
   width: 160px;
   //   aspect-ratio: 160/193;
+}
+
+@media (width <= 800px) {
+  .contact-flex {
+    flex-direction: column;
+  }
 }

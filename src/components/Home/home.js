@@ -15,8 +15,8 @@ const Home = () => {
         <div className="container home-container">
           <div className="flex home-flex">
             <img src={logo} alt="logo" />
-            <h1 className="h1">SKY TAEKWONDO</h1>
-            <h3 className="h3">Martial Arts School</h3>
+            <h1>SKY TAEKWONDO</h1>
+            <h3>Martial Arts School</h3>
             <div className="grid location-grid">
               <div id="basking" className="location">
                 <h1>SKY Taekwondo Basking Ridge</h1>

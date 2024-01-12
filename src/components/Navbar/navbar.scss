@@ -35,7 +35,7 @@
 
 .top-phone-number:hover {
   color: var(--secondary-color);
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
 }
 
 .socials {
@@ -57,5 +57,23 @@
 .icon:hover,
 .sky:hover {
   color: var(--secondary-color);
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
+}
+
+@media (max-width: 1200px) {
+  .socials > .links {
+    display: none;
+  }
+}
+
+@media (width<= 800px) {
+  .email {
+    display: none;
+  }
+}
+
+@media (width<= 485px) {
+  .navbar-flex .logo .sky {
+    display: none;
+  }
 }

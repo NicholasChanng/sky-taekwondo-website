@@ -28,7 +28,7 @@ a {
 
 .container {
   box-sizing: border-box;
-  width: var(--container-width);
+  max-width: var(--container-width);
   height: auto;
   padding: 0 50px;
   margin: 0 auto;

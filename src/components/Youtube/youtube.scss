@@ -4,8 +4,24 @@
 
 .youtube-flex {
   justify-content: space-between;
+  gap: 10px;
 }
 
-iframe {
+.youtube-flex iframe {
   border-radius: 10px;
+  width: 350px;
+  aspect-ratio: 9 / 16;
+}
+
+@media (max-width: 1200px) {
+  .youtube-flex iframe {
+    width: clamp(150px, 25vw, 350px);
+  }
+}
+
+@media (max-width: 585px) {
+  .youtube-flex {
+    flex-direction: column;
+    align-items: center;
+  }
 }
