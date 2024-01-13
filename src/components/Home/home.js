@@ -5,6 +5,7 @@ import logo from "../../assets/images/skytkd-white.png";
 import Scroller from "../Image Containers/Scroller/scroller";
 import About from "../About/about";
 import Youtube from "../Youtube/youtube";
+import Instagram from "../Instagram/instagram";
 
 // import Location from "../Location/location";
 
@@ -42,6 +43,8 @@ const Home = () => {
       <Youtube />
 
       {/* <Park /> */}
+
+      <Instagram />
     </>
   );
 };
