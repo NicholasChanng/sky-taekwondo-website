@@ -13,7 +13,7 @@ export default function Park() {
           <div className="description">
             <h1>
               Grand Master Park obtained his degree in Taekwondo from Kyunghee
-              University and holds a 8th-degree Black Belt. Additionally, while
+              University and holds a 7th-degree Black Belt. Additionally, while
               enrolled at Fairleigh Dickinson University, he pursued a Master of
               Sports Administration. He has been instructing Taekwondo for over
               25 years, and many of his students have participated in World

@@ -4,6 +4,14 @@ import "./join.scss";
 export default function Join() {
   const [open, setOpen] = useState(false);
 
+  document.addEventListener("keydown", function (event) {
+    if (open) {
+      if (event.keyCode === 27) {
+        setOpen(!open);
+      }
+    }
+  });
+
   return (
     <div className="join-section">
       <div className={`join-container ${open ? "active" : "inactive"}`}>
@@ -47,8 +55,10 @@ export default function Join() {
             setOpen(!open);
           }}
         >
-          X
+          <div className="x top"></div>
+          <div className="x bottom"></div>
         </div>
+        <h1>Chat</h1>
       </div>
     </div>
   );
