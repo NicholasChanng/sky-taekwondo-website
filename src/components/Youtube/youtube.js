@@ -5,7 +5,7 @@ export default function Youtube() {
     <>
       <section className="section youtube-section">
         <div className="container youtube-container">
-          <div className="vids">
+          <div className="flex vids">
             <h1>Here are some of our students working hard!</h1>
             <div className="flex youtube-flex">
               <iframe

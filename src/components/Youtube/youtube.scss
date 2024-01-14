@@ -1,4 +1,6 @@
 .vids {
+  flex-direction: column;
+  align-items: center;
   font-size: 150%;
 }
 
@@ -13,7 +15,7 @@
   aspect-ratio: 9 / 16;
 }
 
-@media (max-width: 1200px) {
+@media (585px < width <= 1200px) {
   .youtube-flex iframe {
     width: clamp(150px, 25vw, 350px);
   }
@@ -23,5 +25,6 @@
   .youtube-flex {
     flex-direction: column;
     align-items: center;
+    width: clamp(50px, 40vw, 550px);
   }
 }

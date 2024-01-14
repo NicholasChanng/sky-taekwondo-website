@@ -7,10 +7,10 @@ export default function Instagram() {
         <iframe
           src="https://1fadb23dfbac428f85235b6bce1c8ca2.elf.site"
           width="100%"
-          height="1000"
           frameborder="0"
           title="insta"
         ></iframe>
+        {/* <div id="cover-watermark"></div> */}
       </div>
     </section>
   );
