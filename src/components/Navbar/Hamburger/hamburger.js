@@ -17,7 +17,7 @@ export default function Hamburger() {
             <h1>Instructors </h1>
           </Link>
           <Link to="/schedule">
-            <h1>Schedule </h1>
+            <h1>Locations </h1>
           </Link>
           <Link to="/programs">
             <h1>Programs </h1>
