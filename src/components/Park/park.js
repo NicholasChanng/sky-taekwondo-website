@@ -17,11 +17,12 @@ export default function Park() {
               enrolled at Fairleigh Dickinson University, he pursued a Master of
               Sports Administration. He has been instructing Taekwondo for over
               25 years, and many of his students have participated in World
-              Championship tournaments. Master Park always cares for his
-              students and helps them achieve future success. Sky Taekwondo was
-              founded with the intention of making sure students will have the
-              most rewarding learning experience possible and will be able to
-              change themselves for the better.
+              Championship tournaments. <br /> <br />
+              Master Park always cares for his students and helps them achieve
+              future success. Sky Taekwondo was founded with the intention of
+              making sure students will have the most rewarding learning
+              experience possible and will be able to change themselves for the
+              better.
             </h1>
           </div>
         </div>

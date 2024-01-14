@@ -1,11 +1,11 @@
 import "./navbar.scss";
 import skytkd from "../../assets/images/skytkd.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faFacebook,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faInstagram,
+//   faFacebook,
+//   faYoutube,
+// } from "@fortawesome/free-brands-svg-icons";
 import Hamburger from "./Hamburger/hamburger";
 import { Link } from "react-router-dom";
 
@@ -33,7 +33,21 @@ export default function Navbar() {
               </div>
             </div>
             <div className="socials">
-              <a
+              <nav className="links">
+                <Link to="/">
+                  <h1>Home </h1>
+                </Link>
+                <Link to="/instructors">
+                  <h1>Instructors </h1>
+                </Link>
+                <Link to="/schedule">
+                  <h1>Schedule </h1>
+                </Link>
+                <Link to="/programs">
+                  <h1>Programs </h1>
+                </Link>
+              </nav>
+              {/* <a
                 className="instagram"
                 href="https://www.instagram.com/skytaekwondonj/"
                 target="_blank"
@@ -68,7 +82,7 @@ export default function Navbar() {
                   color="black"
                   className="icon"
                 />
-              </a>
+              </a> */}
               <Hamburger />
             </div>
           </div>

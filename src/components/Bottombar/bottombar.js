@@ -70,6 +70,23 @@ export default function Bottombar() {
                 <h3 className="bottom-phone-number"> pskyman1@gmail.com</h3>
               </a>
             </div>
+            <div className="bottom-links-container">
+              <h3 id="pages">Pages</h3>
+              <nav className="bottom-links">
+                <Link to="/">
+                  <h3>Home </h3>
+                </Link>
+                <Link to="/instructors">
+                  <h3>Instructors </h3>
+                </Link>
+                <Link to="/schedule">
+                  <h3>Schedule </h3>
+                </Link>
+                <Link to="/programs">
+                  <h3>Programs </h3>
+                </Link>
+              </nav>
+            </div>
           </div>
           <div className="map-area">
             <div>
@@ -78,9 +95,7 @@ export default function Bottombar() {
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.911851244648!2d-74.53536301049722!3d40.653873467445976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3bc472dcf9ee7%3A0xe10dd534744bf1a4!2sSKY%20Taekwondo!5e0!3m2!1sen!2sus!4v1703927654339!5m2!1sen!2sus"
                 width="300"
                 height="250"
-                allowfullscreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
               />
 
               <h3 className="map-caption">Basking Ridge</h3>
@@ -94,9 +109,7 @@ export default function Bottombar() {
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.8376029143215!2d-74.92519902356425!3d40.63346324241916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c38b718aaa5927%3A0xc8ce7e1f5a2238ea!2sSky%20Taekwondo!5e0!3m2!1sen!2sus!4v1703927767382!5m2!1sen!2sus"
                 width="300"
                 height="250"
-                allowfullscreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
               />
               <h3 className="map-caption"> Clinton</h3>
               <h3 className="map-caption">114 W Main St, Clinton, NJ 08809</h3>

@@ -1,0 +1,187 @@
+.join-section {
+  --width: 100px;
+  --height: 100px;
+  --border-radius: 50%;
+  position: fixed;
+  width: var(--width);
+  height: var(--height);
+  z-index: 100;
+  right: 50px;
+  bottom: 50px;
+}
+
+.join-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: var(--secondary-color);
+  border-radius: var(--border-radius);
+  transition: all 0.5s ease;
+  width: var(--width);
+  height: var(--height);
+  transform-origin: bottom left;
+  cursor: pointer;
+}
+
+.join-container.active {
+}
+
+// .join-container.inactive {
+//   transform: translateY(0);
+//   height: inherit;
+// }
+
+.button {
+  display: grid;
+  place-content: center;
+  font-size: 12px;
+  width: var(--width);
+  height: var(--height);
+  font-size: 22px;
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 900;
+}
+
+// .button.inactive {
+//   visibility: visible;
+// }
+
+// .button.active {
+//   visibility: hidden;
+// }
+
+.button text {
+  font-size: 37px;
+  font-weight: bold;
+  user-select: none;
+}
+
+.button svg {
+  height: 150px;
+  width: 150px;
+  -webkit-animation-name: rotate;
+  -moz-animation-name: rotate;
+  -ms-animation-name: rotate;
+  -o-animation-name: rotate;
+  animation-name: rotate;
+  -webkit-animation-duration: 5s;
+  -moz-animation-duration: 5s;
+  -ms-animation-duration: 5s;
+  -o-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(360deg);
+  }
+  to {
+    -webkit-transform: rotate(0);
+  }
+}
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(360deg);
+  }
+  to {
+    -moz-transform: rotate(0);
+  }
+}
+@-ms-keyframes rotate {
+  from {
+    -ms-transform: rotate(360deg);
+  }
+  to {
+    -ms-transform: rotate(0);
+  }
+}
+@-o-keyframes rotate {
+  from {
+    -o-transform: rotate(360deg);
+  }
+  to {
+    -o-transform: rotate(0);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}
+
+.content {
+  display: flex;
+  position: absolute;
+  top: calc(-85vh + 150px);
+  left: calc(-85vw + 150px);
+  width: 70vw;
+  height: 70vh;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  box-shadow: 0 0 0 100vw rgba(69, 69, 69, 0.9);
+  transition: all 0.5s ease;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.content.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.content.inactive {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.exit {
+  position: absolute;
+  cursor: pointer;
+  font-size: 100px;
+  width: 24.75px;
+  height: 24.75px;
+  left: 20px;
+  top: 20px;
+}
+
+.x {
+  width: 30px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.x.top {
+  transform: rotate(45deg);
+  translate: -3px 10px;
+}
+.x.bottom {
+  transform: rotate(-45deg);
+  translate: -3px 5px;
+}
+
+.content h1 {
+  text-align: center;
+}
+
+.programs {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+}
+
+.program {
+  text-align: center;
+}

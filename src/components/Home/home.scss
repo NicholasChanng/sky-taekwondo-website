@@ -16,14 +16,16 @@
   margin: 50px 0;
 }
 
-.h1 {
+.home-flex h1 {
   font-size: 50px;
   font-family: "Shadows Into Light", cursive;
+  text-align: center;
 }
 
-.h3 {
+.home-flex h3 {
   margin-top: 0;
   font-size: 35px;
+  text-align: center;
 }
 
 .location-grid {
@@ -31,8 +33,30 @@
   width: 100%;
   gap: 10%;
   grid-template-columns: 45% 45%;
+  place-items: first baseline;
 }
 
 .location {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: center;
+  height: 100%;
+}
+
+@media (width <= 485px) {
+  .home-flex h1 {
+    font-size: clamp(15px, 10vw, 30px);
+  }
+
+  .home-flex h2 {
+    font-size: clamp(12px, 6vw, 25px);
+  }
+  .home-flex h3 {
+    font-size: clamp(12px, 6vw, 25px);
+  }
+
+  .home-flex img {
+    height: clamp(150px, 5vw, 250px);
+  }
 }
