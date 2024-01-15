@@ -22,7 +22,7 @@ export default function Socials() {
             <span className="meta-text">Views on YouTube</span>
           </li>
           <li className="card">
-            ? <span className="highlight">+</span>
+            900k <span className="highlight">+</span>
             <br />
             <span className="meta-text">Views on Instagram</span>
           </li>
