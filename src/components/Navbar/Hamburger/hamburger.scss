@@ -32,7 +32,7 @@
 .hamburger-menu:hover:before,
 .hamburger-menu:hover:after,
 .hamburger-menu input:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--red-400);
 }
 
 .hamburger-menu:hover {
@@ -94,8 +94,7 @@
 .links a {
   transition: all 0.5s ease;
   &:hover {
-    color: var(--secondary-color);
-    transform: scale(1.05, 1.05);
+    color: var(--red-400);
   }
 }
 
@@ -112,7 +111,7 @@
   --bar-width: 30px;
   --bar-height: 4px;
   --hamburger-gap: 4px;
-  --color: var(--primary-color);
+  --color: var(--blue-400);
   --animation-timing: 0.3s ease-in-out;
   --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
 }

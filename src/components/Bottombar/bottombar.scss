@@ -1,5 +1,5 @@
 .bottom-section {
-  background-color: #1d3557;
+  background-color: var(--blue-400);
   height: auto;
   color: white;
 }
@@ -48,8 +48,7 @@
 .bottom-phone-number:hover,
 .bottom-links-container :not(#pages)h3:hover,
 .bottom:hover {
-  color: var(--secondary-color);
-  transform: scale(1.05, 1.05);
+  color: var(--red-400);
 }
 .copyright {
   text-align: center;

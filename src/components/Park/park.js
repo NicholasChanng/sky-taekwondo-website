@@ -1,5 +1,5 @@
 import "./park.scss";
-import park from "../../assets/images/park.jpeg";
+import park from "../../assets/images/MasterParkHeadshot (2).png";
 
 export default function Park() {
   return (

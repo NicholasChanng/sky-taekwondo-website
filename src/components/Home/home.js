@@ -6,6 +6,7 @@ import Scroller from "../Image Containers/Scroller/scroller";
 import About from "../About/about";
 import Youtube from "../Youtube/youtube";
 import Instagram from "../Instagram/instagram";
+import Socials from "../Socials/socials";
 
 // import Location from "../Location/location";
 
@@ -36,13 +37,15 @@ const Home = () => {
 
       {/* <Slider /> */}
 
-      <Scroller />
+      <Socials />
 
       {/* <Location /> */}
 
       <Youtube />
 
       {/* <Park /> */}
+
+      <Scroller />
 
       <Instagram />
     </>

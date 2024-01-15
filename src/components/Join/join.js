@@ -42,7 +42,7 @@ export default function Join() {
             <g>
               <use href="#circlePath" fill="none" />
               <text fill="#000">
-                <textPath href="#circlePath">Join Now! Join Now!</textPath>
+                <textPath href="#circlePath">Chat Now! Chat Now!</textPath>
               </text>
             </g>
           </svg>

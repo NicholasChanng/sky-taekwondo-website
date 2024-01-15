@@ -10,6 +10,10 @@
   align-items: center;
   gap: 30px;
 }
+
+.picture h1 {
+  text-align: center;
+}
 .description {
   font-size: 0.75rem;
   max-width: 700px;
@@ -17,9 +21,8 @@
 }
 #park {
   border-radius: 10px;
-  height: 193px;
-  width: 160px;
-  //   aspect-ratio: 160/193;
+  width: 200px;
+  // aspect-ratio: 1 / 1;
 }
 
 @media (width <= 800px) {

@@ -7,16 +7,18 @@ export default function Schedule() {
   return (
     <section className="top-section section schedule-section">
       <div className="container schedule-container">
-        Schedules
-        {/* <button className="BaskingRidge">Basking Ridge Schedule</button> */}
-        <div className="picture1">
-          <img id="BRschedule" src={BRschedule} alt="BRschedule" />
-        </div>
-        {/* <div className="BRLocation">
+        <span>Schedules</span>
+        <div className="flex schedule-flex">
+          {/* <button className="BaskingRidge">Basking Ridge Schedule</button> */}
+          <div className="picture">
+            <img id="BRschedule" src={BRschedule} alt="BRschedule" />
+          </div>
+          {/* <div className="BRLocation">
         <img id="picBR" src={BRLocation} alt="BRLocation" />
       </div> */}
-        <div className="picture2">
-          <img id="Cschedule" src={Cschedule} alt="Cschedule" />
+          <div className="picture">
+            <img id="Cschedule" src={Cschedule} alt="Cschedule" />
+          </div>
         </div>
       </div>
     </section>

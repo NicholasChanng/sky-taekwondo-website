@@ -34,11 +34,10 @@
 }
 
 .top-phone-number:hover {
-  color: var(--secondary-color);
-  transform: scale(1.05, 1.05);
+  color: var(--red-400);
 }
 
-.socials {
+.socials-bar {
   display: flex;
   align-items: center;
 }
@@ -56,12 +55,11 @@
 
 .icon:hover,
 .sky:hover {
-  color: var(--secondary-color);
-  transform: scale(1.05, 1.05);
+  color: var(--red-400);
 }
 
 @media (max-width: 1200px) {
-  .socials > .links {
+  .socials-bar > .links {
     display: none;
   }
 }

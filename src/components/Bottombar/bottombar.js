@@ -25,6 +25,18 @@ export default function Bottombar() {
             </div>
             <div className="socials">
               <a
+                className="youtube"
+                href="https://www.youtube.com/@skytaekwondo770"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faYoutube}
+                  color="black"
+                  className="bottom icon"
+                />
+              </a>
+              <a
                 className="instagram"
                 href="https://www.instagram.com/skytaekwondonj/"
                 target="_blank"
@@ -44,18 +56,6 @@ export default function Bottombar() {
               >
                 <FontAwesomeIcon
                   icon={faFacebook}
-                  color="black"
-                  className="bottom icon"
-                />
-              </a>
-              <a
-                className="youtube"
-                href="https://www.youtube.com/@skytaekwondo770"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faYoutube}
                   color="black"
                   className="bottom icon"
                 />
@@ -82,8 +82,8 @@ export default function Bottombar() {
                 <Link to="/schedule">
                   <h3>Schedule </h3>
                 </Link>
-                <Link to="/programs">
-                  <h3>Programs </h3>
+                <Link to="/reviews">
+                  <h3>Reviews </h3>
                 </Link>
               </nav>
             </div>

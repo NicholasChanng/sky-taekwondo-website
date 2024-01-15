@@ -32,7 +32,7 @@ export default function Navbar() {
                 </a>
               </div>
             </div>
-            <div className="socials">
+            <div className="socials-bar">
               <nav className="links">
                 <Link to="/">
                   <h1>Home </h1>
@@ -43,8 +43,8 @@ export default function Navbar() {
                 <Link to="/schedule">
                   <h1>Schedule </h1>
                 </Link>
-                <Link to="/programs">
-                  <h1>Programs </h1>
+                <Link to="/reviews">
+                  <h1>Reviews </h1>
                 </Link>
               </nav>
               {/* <a
