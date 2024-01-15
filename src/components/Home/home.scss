@@ -17,7 +17,7 @@
 }
 
 .home-flex h1 {
-  font-size: 50px;
+  font-size: 65px;
   font-family: "Shadows Into Light", cursive;
   text-align: center;
 }
@@ -46,7 +46,7 @@
 
 @media (width <= 485px) {
   .home-flex h1 {
-    font-size: clamp(15px, 10vw, 30px);
+    font-size: clamp(15px, 10vw, 35px);
   }
 
   .home-flex h2 {

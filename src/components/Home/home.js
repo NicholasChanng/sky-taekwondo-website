@@ -20,11 +20,11 @@ const Home = () => {
             <h3>Martial Arts School</h3>
             <div className="grid location-grid">
               <div id="basking" className="location">
-                <h1>SKY Taekwondo Basking Ridge</h1>
+                <h1>Basking Ridge</h1>
                 <h2>403 King George Rd, Basking Ridge, NJ 07920</h2>
               </div>
               <div id="clinton" className="location">
-                <h1>SKY Taekwondo Clinton</h1>
+                <h1>Clinton</h1>
                 <h2>114 W Main St, Clinton, NJ 08809</h2>
               </div>
             </div>
