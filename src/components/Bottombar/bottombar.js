@@ -61,7 +61,7 @@ export default function Bottombar() {
                 />
               </a>
             </div>
-            <div className="flex email">
+            <div className="flex bottom-email">
               <a href="tel:(908) 917-1336">
                 <h3 className="bottom-phone-number">(908) 917-1336</h3>
               </a>

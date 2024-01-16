@@ -87,7 +87,6 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin: 0 15px;
   gap: 10px;
 }
 
@@ -116,13 +115,13 @@
   --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   .hamburger-menu {
     display: flex;
   }
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 801px) {
   .hamburger-menu:has(input:checked) + .links-container {
     transform: translatey(-100%);
     opacity: 0;

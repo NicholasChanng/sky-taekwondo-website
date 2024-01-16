@@ -58,14 +58,14 @@
   color: var(--red-400);
 }
 
-@media (max-width: 1200px) {
-  .socials-bar > .links {
+@media (max-width: 1120px) {
+  .email {
     display: none;
   }
 }
 
 @media (width<= 800px) {
-  .email {
+  .socials-bar > .links {
     display: none;
   }
 }
