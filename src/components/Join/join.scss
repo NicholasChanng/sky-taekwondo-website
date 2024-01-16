@@ -217,6 +217,8 @@
   border: 5px dotted white;
   position: relative;
   z-index: 99999999;
+  display: flex;
+  flex-direction: column;
 }
 
 .join-container {
@@ -257,7 +259,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 80%;
+  height: 100%;
   color: white;
 }
 
@@ -301,7 +303,30 @@
   }
 }
 
-:root {
-  --join-width: 600px;
-  --join-height: 800px;
+@media (width <= 550px) {
+  .join-container h1 {
+    font-size: 30px;
+  }
+
+  .promotion-container p {
+    font-size: 25px;
+  }
+
+  .promotion-container a {
+    font-size: 30px;
+  }
+}
+
+@media (width <= 700px) {
+  :root {
+    --join-width: 80dvw;
+    --join-height: 80dvh;
+  }
+}
+
+@media (width > 700px) {
+  :root {
+    --join-width: 600px;
+    --join-height: 800px;
+  }
 }
