@@ -1,6 +1,6 @@
 import "./schedule.scss";
-import BRschedule from "../../assets/images/BRschedule.jpg";
-import Cschedule from "../../assets/images/Cschedule.jpg";
+import BRschedule from "../../assets/images/RealBRSchedule.jpg";
+import Cschedule from "../../assets/images/RealCSchedule.jpg";
 // import BRLocation from "../../assets/images/BRLocation.JPG";
 
 export default function Schedule() {
