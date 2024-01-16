@@ -193,7 +193,7 @@
   height: 100dvh;
   animation: fade-in 2s ease;
   background-color: rgb(192, 192, 192, 0.8);
-  z-index: 999999;
+  z-index: 10;
   transition: all 0.5s ease;
 }
 
@@ -207,10 +207,23 @@
   opacity: 0;
 }
 
+.join-border {
+  box-sizing: border-box;
+  width: calc(var(--join-width) - 50px);
+  height: calc(var(--join-height) - 50px);
+  margin: 0 25px;
+  translate: 0 25px;
+  border-radius: 10px;
+  border: 5px dotted white;
+  position: relative;
+  z-index: 99999999;
+}
+
 .join-container {
-  width: 80dvw;
-  height: 80dvh;
-  margin: 10dvh 10dvw;
+  width: var(--join-width);
+  height: var(--join-height);
+  margin: calc((100dvh - var(--join-height)) / 2)
+    calc((100dvw - var(--join-width)) / 2);
   border-radius: 10px;
   background-color: var(--blue-400);
 }
@@ -257,7 +270,23 @@
 }
 
 .promotion-container p {
-  font-size: 20px;
+  font-size: 40px;
+}
+
+.promotion-container span {
+  color: var(--red-400);
+}
+
+.promotion-container a {
+  color: white;
+  font-size: 50px;
+  font-style: italic;
+  text-decoration: underline;
+  transition: all 0.5s ease;
+
+  &:hover {
+    color: var(--red-400);
+  }
 }
 
 @keyframes fade-in {
@@ -270,4 +299,9 @@
   100% {
     opacity: 1;
   }
+}
+
+:root {
+  --join-width: 600px;
+  --join-height: 800px;
 }
